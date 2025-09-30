@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+    strong {
+      color: rgb(17, 6, 144);
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  </style>
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>O vídeo abaixo está hospeado no meu próprio server.</p>
+    <video width="500" poster="imagens/irelia.jpg" controls>
+        <source src="midias/Video-M.mp4" type="video/mp4">   
+        <source src="midias/Video-G.webm" type="video/webm"> 
+        <P>Seu navegador não pôde reproduzi o vídeo. <a href="midias/Video-M.mp4" download="">Clique aqui</a> para baixa-lo na sua máquina</P>  
+    </video>
+    
+    <h1>Tentando subir um vídeo mais pesado com formato esquisito.</h1>
+    <p>Caso seu navegador não reproduza o vídeo abaixo, <a href="midias/video-teste.mp4" download="">clique aqui</a> para baixa-lo e reproduzir em seu dispositivo.</p>
+
+    <video poster ="imagens/irelia.jpg" width ="400" controls>
+        <source src="midias/video-teste.mp4" type="video/mp4">
+    </video>
+
+    <h1>Vídeos diretamente do youtube</h1>
+    <p>usar o incorporar</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xbyMUUASTFo?si=YdgkrEQiNj2nYt7t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <h1>Exemplo de uso do &lt;strong&gt; com CSS</h1>
+
+  <p>
+    Atenção: o prazo para entrega é <strong>amanhã</strong>.
+  </p>
+</body>
+</html>
+
+</body>
+</html>

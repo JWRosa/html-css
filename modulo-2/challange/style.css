@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Idroid'; /* nome que vai dar para a fonte */
+    src: url('fontes/idroid.otf') format('opentype'); /* caminho e tipo */
+}
+
+
+body{
+    background-color: rgb(251, 226, 195);
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(#27D157,#379250, #154222);
+    padding: 2px;
+}
+#h1principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-style: bold;
+    color: aliceblue;
+}
+#pprincipal{
+    text-align: center;
+    color: aliceblue;
+}
+nav#menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgba(202, 255, 202, 0.502);
+    text-decoration: double;
+}
+#principal{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px #424D64;
+    width: auto;
+    padding: 10px;
+    margin: 0px 80px 0px 80px;
+}
+.titulo1{
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #11391c;
+    font-weight: 300;
+    
+}
+#extra{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px #424D64;
+    width: auto;
+    padding: 15px 15px 10px 15px;
+    margin: 0px 80px 0px 80px;
+   }
+.extratitulo{
+    background-image: linear-gradient(to right, #154222,#379250, #27D157);
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 400;
+    width: auto;
+    padding:0px;
+   
+}
+.extra2{
+    background-color:  rgb(126, 225, 165);
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 1%;
+   }
+
+.secundaria{
+    background-image: linear-gradient(to right, #256136cd,#37924f68, #27d1570f);
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 300;
+}
+
+.container{
+    display: flex;        /* coloca os elementos lado a lado */
+    gap: 300px;            /* espaço entre as listas */
+    align-items: flex-start; /* alinha pelo topo */
+}
+.pfinal{
+    text-align: center;
+    font-size: 15px;
+}
+.rodape{
+    background-color: #154222;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 2px;
+}
+iframe{
+      display: block;
+    margin: 0 auto;
+}
