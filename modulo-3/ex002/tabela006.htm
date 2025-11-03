@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsiva</title>
+    <Style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        table {
+
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            width: 150px;
+            padding: 7px;
+        }
+
+        caption {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        .cnome{
+            background-color: bisque;
+        }
+        .cidade{
+            background-color: bisque;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </Style>
+</head>
+<body>
+        <h1>Tabela com colgroup</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, facilis iste? Nesciunt porro velit qui minus ex cosoluta illo error. Commodi doloremque voluptatem reiciendis quis accusantium sint tenetur magni voluptatum ratione provident cupiditate perferendis voluptas qui possimus veritatis enim, voluptate modi obcaecati suscipit ut a maiores minima amet excepturi? Minima error totam ipsam nulla odio quam blanditiis voluptatum, nihil repellat aliquid. Natus hic vitae f aliquid eveniet vitae ullam iure corporis! Quia iure provident deleniti fugit amet saepe, similique labore debitis nisi error accusamus cum animi commodi omnis vero quasi, per.</p>
+    <div id="container">
+        <table>
+            <colgroup>
+              <col class="cnome">
+              <col class="csexo">
+              <col class="cidade">
+              <col class="cprof">
+            </colgroup>
+            <caption>Tabela Responsiva</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Bruno Oliveira</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Engenheiro Civil</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Camila Torres</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Analista de Sistemas</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Diego Santos</td>
+                <td>M</td>
+                <td>41</td>
+                <td>Gerente de Projetos</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Fernanda Costa</td>
+                <td>F</td>
+                <td>37</td>
+                <td>Enfermeira</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Designer Gráfico</td>
+        
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
